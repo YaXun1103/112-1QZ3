@@ -5,20 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-    @keyframes example{
-        0%{
+        .firstDiv{
+            width: 220px;
+            height: 220px;
+            border: 1px solid red;
+        }
+        .secondDiv{
+            width: 20px;
+            height: 20px;
             background-color: red;
-            left: 0px;
+            position: relative;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
         }
-        50%{
-            background-color: blue;
-            left: 200px;
-        }
-        100%{
-            background-color: red;
-            left: 0px;
-        }
-        }
+        @keyframes example{
+            0%{
+                background-color: red;
+                left: 0px;
+            }
+            50%{
+                background-color: blue;
+                left: 200px;
+            }
+            100%{
+                background-color: red;
+                left: 0px;
+            }
+            }
 
     </style>
 </head>
