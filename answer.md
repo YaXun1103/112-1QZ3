@@ -1,55 +1,69 @@
 # 第3次隨堂-隨堂-QZ3
 >
->學號：1234567
+>學號：111111109
 ><br />
->姓名：王小明
+>姓名：張雅薰
 ><br />
->作業撰寫時間：180 (mins，包含程式撰寫時間)
+>作業撰寫時間：20 (mins，包含程式撰寫時間)
 ><br />
->最後撰寫文件日期：2023/09/22
+>最後撰寫文件日期：2023/12/08
 >
-
-本份文件包含以下主題：(至少需下面兩項，若是有多者可以自行新增)
-- [x] 說明內容
-- [x] 個人認為完成作業須具備觀念
-
 ## 說明程式與內容
 
-開始寫說明，該說明需說明想法，
-並於之後再對上述想法的每一部分將程式進一步進行展現，
-若需引用程式區則使用下面方法，
-若為.cs檔內程式除了於敘述中需註明檔案名稱外，
-還需使用語法` ```語言種類 程式碼 ``` `，其中語言種類若是要用python則使用py，java則使用java，C/C++則使用cpp，
-下段程式碼為語言種類選擇csharp使用後結果：
 
-```csharp
-public void mt_getResult(){
-    ...
-}
+
+```git
+
 ```
 
-若要於內文中標示部分網頁檔，則使用以下標籤` ```html 程式碼 ``` `，
-下段程式碼則為使用後結果：
-
 ```html
-<%@ Page Language="C#" AutoEventWireup="true" ...>
-
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .firstDiv{
+            width: 220px;
+            height: 220px;
+            border: 1px solid red;
+        }
+        .secondDiv{
+            width: 20px;
+            height: 20px;
+            background-color: red;
+            position: relative;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes example{
+            0%{
+                background-color: rgb(201, 157, 237);
+                left: 0px;
+            }
+            50%{
+                background-color: rgb(27, 27, 88);
+                left: 200px;
+            }
+            100%{
+                background-color:  rgb(201, 157, 237);
+                left: 0px;
+            }
+            }
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" ...>
-    <title></title>
+    </style>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
+    <div class="firstDiv">
+        <div class="secondDiv"></div>
+    </div>
+       
 </body>
 </html>
 ```
-更多markdown方法可參閱[https://ithelp.ithome.com.tw/articles/10203758](https://ithelp.ithome.com.tw/articles/10203758)
+
 
 ## 個人認為完成作業須具備觀念
 
